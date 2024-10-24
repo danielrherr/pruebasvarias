@@ -18,7 +18,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "typeRoots": ["./node_modules/@types", "./src/types"], // Asegúrate de que esté presente
+    "types": ["google.maps"] // Opcional, si deseas incluir específicamente tipos
   },
   "include": [
     "src"
